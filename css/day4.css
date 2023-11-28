@@ -1,0 +1,193 @@
+/* comments */
+
+/*--------------colors-------------------  */
+
+/* named colors */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: peachpuff;
+  color: aqua;
+  color: black;
+  color: magenta;
+  background-color: #71ef5e;
+}
+
+/* hex colors  0-9 a-f*/
+
+p {
+  color: #71ef5e;
+  color: #f32525;
+}
+
+/* rgb  0-255*/
+
+p {
+  color: rgb(255, 255, 0);
+}
+/* alpha range 0-1 */
+
+p {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+/* hue-360, saturation-100%,lightness-100% */
+
+p {
+  color: hsl(0, 98%, 52%);
+}
+
+p {
+  color: hsla(228, 98%, 52%, 0.6);
+}
+
+/* font-size */
+
+p {
+  font-size: 20px;
+}
+
+/* font-style ----- italic, normal */
+
+p {
+  font-style: normal;
+}
+
+/* font-weight ------range--100-900*/
+
+p {
+  font-weight: 400;
+}
+
+/* letter spacing can be positive or negative */
+
+h1 {
+  letter-spacing: 1px;
+}
+
+/* word spacing */
+p {
+  word-spacing: 10px;
+}
+
+/* line-height */
+
+p {
+  line-height: 1;
+  /* text-align: justify; */
+}
+
+/* text-align - only block elements - start, end, center, justify,left,right*/
+
+h1 {
+  background-color: aqua;
+  text-align: start;
+}
+
+/* text-transform -uppercase, lowercase, capitalize*/
+
+h1 {
+  text-transform: capitalize;
+}
+
+/* text-shadow x-offset, y-offset, blur-radius, color*/
+
+/* #shadow {
+  background-color: white;
+  text-shadow: 3px 3px 4px red, -3px -3px 2px black, 2px 2px 10px blue;
+} */
+
+/* text-decoration-line --- underline,overline,line-through,none */
+
+h1 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-style: solid;
+  text-decoration-color: gray;
+  text-underline-offset: -40px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+/* list-style-type,position,image, */
+
+li {
+  list-style: none;
+  list-style-type: disc;
+  background-color: #71ef5e;
+
+  list-style-position: outside;
+}
+
+/* box model */
+
+#box {
+  background-color: white;
+
+  border-color: black;
+  border-style: solid;
+  border-width: 10px 1px 2px 0px;
+  border-style: dotted dashed solid groove;
+  border-color: blue black red green;
+  border: 1px dotted blue;
+}
+
+/* #parent-container {
+  height: 400px;
+} */
+
+h3 {
+  width: 50%;
+  width: 100px;
+  /* width: 50vw; */
+
+  /* height: 50px;
+  height: 50vh;
+  height: 10%; */
+
+  border: 1px solid black;
+  background-color: cyan;
+  padding: 10px;
+  padding: 10px 2px 5px 10px;
+  padding: 20px 10px;
+  padding: 10px 5px 10px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px 20px 30px 40px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 10px;
+}
+
+/* margin overlaps */
+/* negative margin */
+h2 {
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+/* padding overlaps, margin doesnt work on top and bottom */
+
+#span {
+  /* background-color: black; */
+  color: white;
+  /* width: 200px;
+  height: 200px; */
+  border: 1px solid black;
+  /* padding: 10px; */
+}
+#span {
+  display: block;
+  display: inline;
+  /* display: inline-block; */
+  margin: 30px 3px;
+  padding: 2px 3px;
+  display: inline-block;
+  /* inline-block respects width , height, padding, margin and doesn't start in the new line */
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms</title>
+  </head>
+  <body>
+    <audio controls>
+      <source src="./file_example_MP3_700KB.mp3" type="audio/mp3" />
+    </audio>
+    <video autoplay muted controls>
+      <source src="./file_example_MP4_480_1_5MG (1).mp4" type="video/mp4" />
+    </video>
+    <form>
+      <label for="username">username</label>
+      <input type="text" id="username" />
+      <br />
+      <br />
+      <label for="password">password</label>
+      <input type="password" id="password" />
+
+      <input type="date" />
+      <br />
+      <br />
+      <input type="email" />
+      <br />
+      <br />
+      <input type="file" />
+      <br />
+      <br />
+
+      <input type="checkbox" />
+      <br />
+      <br />
+
+      <input type="radio" />
+      <br />
+      <br />
+
+      <input type="color" />
+      <br />
+      <br />
+
+      <input type="number" />
+      <br />
+      <br />
+
+      <input type="range" />
+      <br />
+      <br />
+
+      <input type="time" />
+      <br /><br />
+      <input type="month" />
+      <br /><br />
+
+      <input type="tel" />
+      <br />
+      <br />
+
+      <input type="submit" />
+
+      <br />
+      <br />
+
+      <input type="reset" />
+
+      <input type="hidden" value="ajsdflkjlsadfl" />
+    </form>
+
+    <br />
+    <br />
+
+    <!-- fieldset legend -->
+
+    <form action="">
+      <fieldset>
+        <legend>details</legend>
+        <label for="">username</label>
+
+        <input type="text" />
+      </fieldset>
+    </form>
+
+    <!-- input elements -->
+
+    <form action="">
+      <br /><br />
+      <input type="email" placeholder="enter email" />
+      <input type="text" placeholder="username" />
+      <input type="submit" />
+
+      <br />
+      <br />
+
+      <label for="manoj">username</label>
+
+      <input type="text" value="manoj" />
+      <input type="number" value="20" min="10" max="20" step="0.1" />
+
+      <input type="range" min="10" max="20" value="10" step="2" />
+      <br />
+      <br />
+
+      <input type="text" maxlength="5" />
+
+      <input type="text" disabled value="something" />
+      <input type="text" readonly value="something" />
+
+      <br />
+      <br />
+
+      <!-- size or css (width)* -->
+
+      <input type="text" size="30" />
+      <input type="email" />
+      <input type="number" />
+      <br />
+      <br />
+      <label for="checkbox">india</label>
+
+      <input type="checkbox" id="checkbox" name="username" />
+      <input type="checkbox" checked />
+      <input type="text" />
+
+      <label for="mango">mango</label>
+      <input type="radio" id="mango" name="fruits" value="mango" />
+
+      <label for="apple">apple</label>
+      <input type="radio" id="apple" name="fruits" value="apple" />
+
+      <label for="banana">banana</label>
+      <input type="radio" id="banana" name="fruits" value="banana" />
+
+      <label for="">fruits</label>
+      <select size="2" multiple>
+        <option value="mango">mango</option>
+        <option value="apple">apple</option>
+        <option selected value="orange">orange</option>
+        <option value="jackfruit">jackfruit</option>
+      </select>
+
+      <label for="">select favorite</label>
+
+      <select>
+        <optgroup label="fruits">
+          <option value="mango">mango</option>
+          <option value="apple">apple</option>
+          <option selected value="orange">orange</option>
+        </optgroup>
+        <optgroup label="vegetables">
+          <option value="tomato">tomato</option>
+          <option value="apple">apple</option>
+          <option value="orange">orange</option>
+        </optgroup>
+      </select>
+      <textarea name="" id="" cols="50" rows="20"></textarea>
+      <button type="button">alskdflsdf</button>
+
+      <!-- datalist -->
+
+      <input list="countries" />
+
+      <datalist id="countries">
+        <option value="australia">australia</option>
+        <option value="india">india</option>
+        <option value="germany">germany</option>
+      </datalist>
+
+      <br />
+      <br />
+      <br />
+      <br />
+    </form>
+
+    <iframe
+      src="https://www.battlegroundsmobileindia.com/"
+      title="bgmi"
+      width="500"
+      height="400"
+    ></iframe>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/2Ji-clqUYnA?si=NXZfFMEJR8Ycqxtn"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla in
+      unde aspernatur ipsum possimus numquam delectus consequuntur quod, eos
+      autem similique molestias voluptates accusamus porro perferendis sequi
+      sunt vel.
+    </p>
+
+    <pre>
+        Lorem ipsum dolor sit, 
+        amet consectetur adipisicing elit. 
+        Veritatis illum animi ea magni provident consequatur quae sed mollitia tempora. Quis nam beatae laborum vitae dolores ullam cupiditate eveniet nisi iste?
+    </pre>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+li {
+  list-style-type: square;
+
+  background-color: gray;
+  list-style-position: outside;
+  list-style-image: url("");
+  list-style: square;
+  list-style: upper-roman outside;
+  text-decoration: none;
+  list-style: none;
+}

@@ -1,0 +1,53 @@
+/* simple selectors */
+
+/* universal selector */
+
+* {
+  font-size: 30px;
+}
+
+/* element selector */
+
+p {
+  color: blueviolet;
+}
+h1 {
+  color: blue;
+}
+
+/* class selector */
+
+.classSelector {
+  color: brown;
+}
+
+#id1 {
+  color: black;
+}
+
+/* id selector */
+#idSelector {
+  color: skyblue;
+}
+
+/* grouping selector */
+
+.span1,
+.span2 {
+  color: aqua;
+}
+
+.span2 {
+  font-size: 40px;
+}
+
+/* descendant selector selects all spans in a paragraph*/
+
+p span {
+  color: aquamarine;
+}
+
+/* combinator selector selects element with id and class*/
+#id .class {
+  color: blue;
+}
